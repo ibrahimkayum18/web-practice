@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(27, 25, 25);
+    display: flex;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.menus{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+/* .container li{
+    display: inline;
+    font-size: 20px;
+    
+} */
+li a{
+    
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    /* tab-size: 25px; */
+}
+.item a:hover{
+    color: blue;
+    cursor: pointer;
+    background-color: #343232;
+}
+.banner-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: black;
+    color: white;
+    
+    /* background-image: url("Images/w-bag.jpeg"),linear-gradient(45deg,rgb(16, 14, 14),rgb(27, 24, 24));
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.banner-sec h1{
+    font-size: 60px;
+}
+.banner-sec p{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner-img-2{
+    width: 400px;
+}
+.button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
