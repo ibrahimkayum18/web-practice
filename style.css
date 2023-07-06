@@ -36,7 +36,7 @@ li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 500px;
+    height: 560px;
     background-color: black;
     color: white;
     
@@ -62,4 +62,8 @@ li a{
     font-size: 16px;
     border-radius: 8px;
     border: none;
+}
+.button:hover{
+    background-color: rgb(154, 113, 37);
+    cursor: pointer;
 }
